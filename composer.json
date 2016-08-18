@@ -1,0 +1,22 @@
+{
+  "name": "funcraft/masterpiece-interfaces",
+  "description": "Funcraft Masterpiece interfaces only",
+  "type": "library",
+  "keywords": ["masterpiece", "funcraft"],
+  "authors":[
+    {
+      "name": "Funcraft",
+      "email": "what4me@yandex.ru",
+      "homepage": "http://funcraft.ru",
+      "role": "developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.4"
+  },
+  "autoload": {
+    "psr4": {
+      "funcraft\\masterpiece\\": ""
+    }
+  }
+}
